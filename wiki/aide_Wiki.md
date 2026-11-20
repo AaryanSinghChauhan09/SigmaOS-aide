@@ -1,63 +1,50 @@
-# SigmaOS-aide Component Wiki
+# SigmaOS-SigmaOS-aide Component Wiki
 
 ## Overview
-SigmaOS-aide provides AI assistance and system aid support for the SigmaOS operating system. It demonstrates the AI help subsystem and system assistance within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic aid initialization.
+SigmaOS-SigmaOS-aide provides GitHub description is a placeholder; component scope remains unclassified. for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
 
 ## Principles
 - Single Responsibility
-- Aid Abstraction
-- Fail-Fast on Aid Initialization Errors
-- Deterministic Aid Setup
-- Clear Abstraction Over Aid APIs
-- Composition over Inheritance for aid extensions
+- SigmaOS-aide Abstraction
+- Fail-Fast on SigmaOS-aide Initialization Errors
+- Deterministic SigmaOS-aide Setup
+- Clear Abstraction Over SigmaOS-aide APIs
+- Composition over Inheritance for SigmaOS-aide extensions
 
 ## Architecture
-SigmaOS-aide follows an aid pattern:
-- **Aid Core**: Provides system monitoring, resource assistance, and automated troubleshooting
-- **System Help**: Supports diagnostic tools, error resolution, and system optimization
-- **Automated Assistance**: Supports proactive suggestions, auto-fix recommendations, and context-aware help
-- **Error Handling**: Fail-fast on invalid aid configurations or unsupported system types
+SigmaOS-SigmaOS-aide follows a SigmaOS-aide pattern:
+- **SigmaOS-aide Core**: Provides SigmaOS-aide support, SigmaOS-aide management, and SigmaOS-aide tracking
+- **Management**: Supports SigmaOS-aide management, SigmaOS-aide configuration, and SigmaOS-aide lifecycle
+- **Tracking**: Supports SigmaOS-aide status, SigmaOS-aide tracking, and SigmaOS-aide lifecycle
+- **Error Handling**: Fail-fast on invalid SigmaOS-aide configurations or unsupported SigmaOS-aide types
 
 ## API
 The component provides the following public APIs:
-- `aid::system::status()` - Get current system status and health metrics
-- `aid::assistant::help(topic)` - Get assistance and guidance on a given topic
-- `aid::diagnostics::run()` - Run system diagnostics and produce reports
-- `aid::recommendation::suggest(context)` - Get system recommendations based on context
-- Error types for aid failure scenarios or unsupported system types
+-  - Manage a SigmaOS-aide by given configuration
+-  - Register a SigmaOS-aide by given name
+-  - Get SigmaOS-aide status and SigmaOS-aide availability
+-  - Track SigmaOS-aide management and SigmaOS-aide tracking
+- Error types for SigmaOS-aide failure scenarios or unsupported SigmaOS-aide types
 
 ## Test Structure (Arrange-Act-ASSERT)
 All tests follow the AAA pattern:
-1. **Arrange**: Set up test environment with specific aid configuration
-2. **Act**: Execute the code under test (system status, assistance request)
-3. **Assert**: Verify the expected aid results
+1. **Arrange**: Set up test environment with specific SigmaOS-aide configuration
+2. **Act**: Execute the code under test (SigmaOS-aide init, SigmaOS-aide management)
+3. **Assert**: Verify the expected SigmaOS-aide results
 
 Example:
-```rust
-#[test]
-fn test_aid_status_aaa() {
-    // Arrange
-    
-    // Act
-    let result = aid::system::status();
-    
-    // Assert
-    assert!(result.is_ok());
-    let status = result.unwrap();
-    assert!(status.is_healthy());
-}
-```
+
 
 ## Development
-- Follows Rust best practices with `#![forbid(unsafe_code)]`
-- Aid initialization is best-effort; gracefully degrades on unsupported configurations
-- Comprehensive error types for all aid failure scenarios
-- Unit tests provided for system status and assistance requests
-- Integration tests for full aid system with actual system assistance
+- Follows Rust best practices with 
+- SigmaOS-aide initialization is best-effort; gracefully degrades on unsupported configurations
+- Comprehensive error types for all SigmaOS-aide failure scenarios
+- Unit tests provided for SigmaOS-aide management and configuration
+- Integration tests for full SigmaOS-aide system with actual SigmaOS-aide integration
 
 ## TODO
-- Add support for additional aid types (performance optimization, security scanning, backup assistance)
-- Expand system help capabilities (troubleshooting guides, knowledge base, community support)
-- Add automated assistance features (proactive suggestions, auto-fix recommendations, context-aware help)
-- Create integration tests with actual system assistance scenarios
-- Implement aid persistence and assistance history features
+- Add support for additional SigmaOS-aide types
+- Expand SigmaOS-aide capabilities (SigmaOS-aide features, SigmaOS-aide configurations, SigmaOS-aide tracking)
+- Add lifecycle features (SigmaOS-aide tracking, SigmaOS-aide lifecycle, SigmaOS-aide propagation)
+- Create integration tests with actual SigmaOS-aide systems and SigmaOS-aide integration
+- Implement SigmaOS-aide persistence and SigmaOS-aide state management
